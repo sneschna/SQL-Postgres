@@ -56,10 +56,4 @@ CREATE TABLE IF NOT EXISTS albom (
 
 
 
-CTABLE IF NOT EXISTS albom_artist (
-    albom_id INTEGER REFERENCES albom(albom_id),
-	artist_id INTEGER REFERENCES artist(artist_id),
-	CONSTRAINT pk PRIMARY KEY (artist_id, genre_id)
-);
-	
-	
+
